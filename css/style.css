@@ -1,0 +1,149 @@
+/* CSS Document */
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	background: #fff;
+	padding: 3px;
+}
+
+#header h1 {
+	margin: 0;
+	float: right;
+	color: #660000;
+	font-size: 20px;
+	}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background-color: #000099;
+	border-top-style: groove;
+	border-right-style: none;
+	border-bottom-style: groove;
+	border-left-style: none;
+}
+#navigation1
+{
+	float: left;
+	width: 100%;
+	background-color: #FCFCFC;
+	border-top-style: double;
+	border-bottom-style: double;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+#navigation1 ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+#navigation1 ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+#navigation1 li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+#navigation1 li a:hover {
+	background-color: #7DD9EC;
+}
+#content-container
+{
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	display: inline;
+}
+
+#content-container h2 {
+	margin: 0;
+	color: #0066ff;
+}
+
+#footer
+{
+	color: #FFF;
+	clear: left;
+	background: #333;
+	text-align: right;
+	padding: 1px;
+	height: 1%;
+	
+}
+.style2 {
+	color: #990000;
+	font-weight: bold;
+	}
+.style1 {
+	color: #0099FF;
+	font-weight: bold;
+	font-size:18px;
+}
+.style4 {
+	color: #0077FF;
+	font-weight: bold;
+	font-size:14px;
+}
+.style3 {
+	color: #0000ff;
+	font-weight: bold;
+	font-size:16px;
+}
+/* Virtual Key Board Starts */
+.vkb_link {padding:5px; color:#2A6097; font:100% Arial, Helvetica, sans-serif; border-top:1px dashed #ccc}
+.vkb_link a{color:#2A6097; text-decoration:none;}
+.vkb_link a:hover{text-decoration:underline;}
+.kbd_heading{font:110% Arial, Helvetica, sans-serif; padding:5px 0px 0px 5px; margin:0px; font-weight:bold; }
+.keyboardtbl {font:110% Arial, Helvetica, sans-serif; margin:0px; padding:0px}
+.keyboardtblenb {padding:3px 8px 3px 8px; background:#F0F5F7;text-align:center; cursor:pointer; font-weight:bold; vertical-align:middle; border:1px solid #377292; }
+.keyboardtbldis {padding:3px 8px 3px 8px; background-color:#edf2f2;text-align:center; vertical-align:middle; border:1px solid #d9d8d8; color:#929290; font-weight:bold}
+.vkb_login_heading{ font:100% Arial, Helvetica, sans-serif;}
+.vkb_login_heading span{color:#407CB9; font-size: 140%; font-weight:bolder; margin:0px; padding:0px}
+.vkb_tbl{font:80% Arial, Helvetica, sans-serif; vertical-align:top; margin:0px; padding:2px}
+.vkb_tbl td{padding:4px 2px 2px 2px;}
+.vkb_content{background:url(../images/kb_bg.gif) repeat-x; border:1px solid #538EAD; color:#36505E;font:80% Arial, Helvetica, sans-serif; vertical-align:top; margin:0px; padding:5px}
+.vkb_aligntop{vertical-align:top; padding:4px 6px 0px 5px;}
+.vkb_loginsublinks{color:#003399;font:80% Arial,Helvetica,sans-serif;padding-bottom:6px}
+.vkb_loginsublinks a{text-decoration:underline}
+.vkb_errormsg{color:red;font-weight:bold}
+/* Virtual Key Board Ends */
+.notecls{background:#f0f0f0 url(../images/note_icon.gif) no-repeat left 50%;border-bottom:#b2b2b2 1px solid;border-left:#b2b2b2 1px solid;border-right:#b2b2b2 1px solid;border-top:#b2b2b2 1px solid;color:#000;font:80% Arial,Helvetica,sans-serif;height:48px;list-style-image:url(../images/bullet.gif);list-style-position:outside;margin:0px;padding-left:30px;padding-top:15px}.notecls{background:#f0f0f0 url(../images/note_icon.gif) no-repeat left 50%;border-bottom:#b2b2b2 1px solid;border-left:#b2b2b2 1px solid;border-right:#b2b2b2 1px solid;border-top:#b2b2b2 1px solid;color:#000;font:80% Arial,Helvetica,sans-serif;height:48px;list-style-image:url(../images/bullet.gif);list-style-position:outside;margin:0px;padding-left:30px;padding-top:15px}

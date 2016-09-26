@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://geronimo.apache.org/xml/ns/j2ee/web-2.0">
+    <dep:environment xmlns:dep="http://geronimo.apache.org/xml/ns/deployment-1.2">
+        <dep:moduleId>
+            <dep:groupId>org.apache.geronimo.samples</dep:groupId>
+            <dep:artifactId>Securebankapplication</dep:artifactId>
+            <dep:version>2.0</dep:version>
+            <dep:type>war</dep:type>
+        </dep:moduleId>
+<dependencies>
+	   <dependency>
+                <groupId>com.ibm.db2</groupId>
+                <artifactId>db2jcc</artifactId>
+                <version>9.1</version>
+                <type>jar</type>
+            </dependency>
+	    <dependency>
+                <groupId>com.ibm.db2</groupId>
+                <artifactId>db2jcc_license_cu</artifactId>
+                <version>9.1</version>
+                <type>jar</type>
+            </dependency>
+</dependencies>
+    </dep:environment>
+    <context-root>/SecureBank</context-root>
+    <security-realm-name>SampleSecurityRealm</security-realm-name>
+    <security>
+        <role-mappings>
+            <role role-name="admin">
+                <principal name="Admin"
+	class="org.apache.geronimo.security.realm.providers.GeronimoGroupPrincipal"/>
+            </role>
+            <role role-name="user">
+                <principal name="User"
+	class="org.apache.geronimo.security.realm.providers.GeronimoGroupPrincipal"/>
+            </role>
+        </role-mappings>
+    </security>
+</web-app>
